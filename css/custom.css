@@ -1,0 +1,36 @@
+/* Link colors */
+a { color: #0066cc; }
+a:hover { color: #ff6600; }
+
+/* Restore focus outlines */
+a:focus,
+button:focus,
+.btn-theme:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+
+a { color: #0066cc; }
+a:hover,
+a:focus { color: #004999; }
+
+/* Restore blue links everywhere */
+a:link,
+a:visited {
+  color: #0066cc;
+}
+
+.email {
+  color: #222;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Publications formatting */
+.pub-list { list-style: none; padding-left: 0; margin-left: 0; }
+.pub-item { margin-bottom: 14px; }
+.pub-title { font-size: 18px; font-weight: 600; }
+.pub-meta { font-size: 15px; line-height: 1.5; color: #444; margin-top: 3px; }
+.pub-footnote { margin-top: 18px; }
+
